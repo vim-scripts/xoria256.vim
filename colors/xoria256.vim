@@ -11,6 +11,7 @@
 "
 " Color numbers (0-255) see:
 " http://www.calmar.ws/vim/256-xterm-24bit-rgb-color-chart.html
+"
 " TODO:
 " 	- Diff
 " 	- Html
@@ -75,7 +76,7 @@ hi DiffDelete	cterm=none	ctermfg=fg	ctermbg=88	gui=none	guifg=fg	guibg=#870000
 hi DiffChange	cterm=none	ctermfg=fg	ctermbg=18	gui=none	guifg=fg	guibg=#000087	
 hi DiffAdd	cterm=none	ctermfg=fg	ctermbg=28	gui=none	guifg=fg	guibg=#008700	
 
-hi Folded	cterm=none	ctermfg=247	ctermbg=251	gui=bold	guifg=#c6c6c6	guibg=#585858	
+hi Folded	cterm=none	ctermfg=251	ctermbg=240	gui=bold	guifg=#c6c6c6	guibg=#585858	
 hi FoldColumn	cterm=none	ctermfg=248	ctermbg=58	gui=none	guifg=#a8a8a8	guibg=bg	
 hi SignColumn	cterm=none	ctermfg=248	ctermbg=bg	gui=none	guifg=#a8a8a8	guibg=bg	
 
@@ -98,7 +99,7 @@ hi Identifier	cterm=none	ctermfg=229	ctermbg=bg	gui=none	guifg=#ffffaf	guibg=bg
 hi Ignore	cterm=none	ctermfg=bg	ctermbg=bg	gui=none	guifg=bg	guibg=bg	
 "hi Number	cterm=none	ctermfg=209	ctermbg=0	gui=none	guifg=#ff875f	guibg=#000000
 "hi Number	cterm=none	ctermfg=210	ctermbg=0	gui=none	guifg=#ff8787	guibg=#000000
-hi Number	cterm=none	ctermfg=174	ctermbg=0	gui=none	guifg=#df8787	guibg=#000000
+hi Number	cterm=none	ctermfg=174	ctermbg=bg	gui=none	guifg=#df8787	guibg=bg
 hi PreProc	cterm=none	ctermfg=182	ctermbg=bg	gui=none	guifg=#dfafdf	guibg=bg	
 "hi PreProc	cterm=none	ctermfg=218	ctermbg=bg	gui=none	guifg=#ffafdf	guibg=bg	
 "hi Special	cterm=none	ctermfg=77	ctermbg=bg	gui=none	guifg=#5fdf5f	guibg=bg	
