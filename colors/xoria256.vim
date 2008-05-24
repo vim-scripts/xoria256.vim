@@ -1,6 +1,6 @@
 " Vim color file
 " Name:		xoria256.vim
-" Version:	0.3.1
+" Version:	0.3.2
 " License:	Public Domain
 " Maintainer:	Dmitriy Y. Zotikov (xio) <xio@ungrund.org>
 "
@@ -13,7 +13,7 @@
 " http://www.calmar.ws/vim/256-xterm-24bit-rgb-color-chart.html
 "
 " TODO:
-" 	- Diff
+" 	- Diff (currently *VERY* ugly)
 " 	- Html
 
 
@@ -92,21 +92,23 @@ hi Visual	cterm=none	ctermfg=24	ctermbg=153	gui=none	guifg=#005f87	guibg=#afdfff
 hi VisualNOS	cterm=bold,underline ctermfg=247 ctermbg=bg	gui=bold,underline guifg=#9e9e9e guibg=bg
 
 hi Comment	cterm=none	ctermfg=244	ctermbg=bg	gui=none	guifg=#808080	guibg=bg
-""" cold
+""" COLD
 hi Constant	cterm=none	ctermfg=187	ctermbg=bg	gui=none	guifg=#dfdfaf	guibg=bg
-""" cold-dark
+""" COLD-DARK
 "hi Constant	cterm=none	ctermfg=223	ctermbg=bg	gui=none	guifg=#ffdfaf	guibg=bg
-""" neutral
+""" NEUTRAL
 "hi Constant	cterm=none	ctermfg=229	ctermbg=bg	gui=none	guifg=#ffffaf	guibg=bg
-""" warm
+""" WARM
 "hi Constant	cterm=none	ctermfg=222	ctermbg=bg	gui=none	guifg=#ffdf87	guibg=bg
 "hi String	cterm=		ctermfg=	ctermbg=	gui=		guifg=		guibg=
 hi Error	cterm=none	ctermfg=196	ctermbg=bg	gui=none	guifg=#ff0000	guibg=bg
-""" cold
+""" COLD
 "hi Identifier	cterm=none	ctermfg=115	ctermbg=bg	gui=none	guifg=#87dfaf	guibg=bg
-""" neutral
-hi Identifier	cterm=none	ctermfg=114	ctermbg=bg	gui=none	guifg=#87df87	guibg=bg
-hi Ignore	cterm=none	ctermfg=bg	ctermbg=bg	gui=none	guifg=bg	guibg=bg
+""" NEUTRAL
+"hi Identifier	cterm=none	ctermfg=114	ctermbg=bg	gui=none	guifg=#87df87	guibg=bg
+""" WARM
+hi Identifier	cterm=none	ctermfg=150	ctermbg=bg	gui=none	guifg=#afdf87	guibg=bg
+hi Ignore	cterm=none	ctermfg=238	ctermbg=bg	gui=none	guifg=#444444	guibg=bg
 hi Number	cterm=none	ctermfg=180	ctermbg=bg	gui=none	guifg=#dfaf87	guibg=bg
 "hi Number	cterm=none	ctermfg=222	ctermbg=bg	gui=none	guifg=#ffaf87	guibg=bg
 "hi Number	cterm=none	ctermfg=215	ctermbg=bg	gui=none	guifg=#ffaf87	guibg=bg
@@ -114,9 +116,9 @@ hi Number	cterm=none	ctermfg=180	ctermbg=bg	gui=none	guifg=#dfaf87	guibg=bg
 "hi Number	cterm=none	ctermfg=210	ctermbg=0	gui=none	guifg=#ff8787	guibg=#000000
 hi PreProc	cterm=none	ctermfg=182	ctermbg=bg	gui=none	guifg=#dfafdf	guibg=bg
 "hi PreProc	cterm=none	ctermfg=218	ctermbg=bg	gui=none	guifg=#ffafdf	guibg=bg
-""" light
+""" LIGHT
 "hi Special	cterm=none	ctermfg=174	ctermbg=bg	gui=none	guifg=#ffafaf	guibg=bg
-""" dark
+""" DARK
 hi Special	cterm=none	ctermfg=174	ctermbg=bg	gui=none	guifg=#df8787	guibg=bg
 "hi Special	cterm=none	ctermfg=114	ctermbg=bg	gui=none	guifg=#87df87	guibg=bg
 "hi SpecialChar	cterm=		ctermfg=	ctermbg=	gui=		guifg=		guibg=
