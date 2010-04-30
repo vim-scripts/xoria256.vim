@@ -1,7 +1,7 @@
 " Vim color file
 "
 " Name:       xoria256.vim
-" Version:    1.1
+" Version:    1.2
 " Maintainer:	Dmitriy Y. Zotikov (xio) <xio@ungrund.org>
 "
 " Should work in recent 256 color terminals.  88-color terms like urxvt are
@@ -46,7 +46,7 @@ hi CursorLine                             ctermbg=238 guibg=#444444
 hi FoldColumn   ctermfg=248 guifg=#a8a8a8 ctermbg=bg  guibg=bg
 hi Folded       ctermfg=255 guifg=#eeeeee ctermbg=60  guibg=#5f5f87
 hi IncSearch    ctermfg=0   guifg=#000000 ctermbg=223 guibg=#ffdfaf cterm=none gui=none
-hi NonText      ctermfg=248 guifg=#a8a8a8                           cterm=bold gui=bold
+hi NonText      ctermfg=248 guifg=#a8a8a8 ctermbg=233 guibg=#101010 cterm=bold gui=bold
 hi Pmenu        ctermfg=0   guifg=#000000 ctermbg=246 guibg=#949494
 hi PmenuSbar                              ctermbg=243 guibg=#767676
 hi PmenuSel     ctermfg=0   guifg=#000000 ctermbg=243 guibg=#767676
@@ -61,7 +61,7 @@ hi TabLineFill  ctermfg=fg  guifg=fg      ctermbg=242 guibg=#666666 cterm=underl
 hi VertSplit    ctermfg=237 guifg=#3a3a3a ctermbg=237 guibg=#3a3a3a cterm=none gui=none
 hi Visual       ctermfg=24  guifg=#005f87 ctermbg=153 guibg=#afdfff
 hi VIsualNOS    ctermfg=24  guifg=#005f87 ctermbg=153 guibg=#afdfff cterm=none gui=none
-hi WildMenu     ctermfg=0   guifg=#000000 ctermbg=184 guibg=#dfdf00 cterm=bold gui=bold
+hi WildMenu     ctermfg=0   guifg=#000000 ctermbg=150 guibg=#afdf87 cterm=bold gui=bold
 
 "" Syntax highlighting
 hi Comment      ctermfg=244 guifg=#808080
@@ -70,7 +70,7 @@ hi Error        ctermfg=15  guifg=#ffffff ctermbg=1   guibg=#800000
 hi ErrorMsg     ctermfg=15  guifg=#ffffff ctermbg=1   guibg=#800000
 hi Identifier   ctermfg=182 guifg=#dfafdf                           cterm=none
 hi Ignore       ctermfg=238 guifg=#444444
-hi LineNr       ctermfg=248 guifg=#a8a8a8
+hi LineNr       ctermfg=248 guifg=#a8a8a8 ctermbg=233 guibg=#101010
 hi MatchParen   ctermfg=188 guifg=#dfdfdf ctermbg=68  guibg=#5f87df cterm=bold gui=bold
 hi Number       ctermfg=180 guifg=#dfaf87
 hi PreProc      ctermfg=150 guifg=#afdf87
